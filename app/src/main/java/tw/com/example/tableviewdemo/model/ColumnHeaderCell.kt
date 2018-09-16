@@ -1,6 +1,6 @@
 package tw.com.example.tableviewdemo.model
 
-class ColumnHeaderCell
+class ColumnHeaderCell(id: String, data: Any) : Cell(id, data)
 {
 
 }

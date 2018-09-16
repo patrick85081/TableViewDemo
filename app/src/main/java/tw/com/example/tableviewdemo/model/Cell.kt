@@ -1,6 +1,6 @@
 package tw.com.example.tableviewdemo.model
 
-class Cell()
+open class Cell(var id: String, var data: Any)
 {
 
 }
